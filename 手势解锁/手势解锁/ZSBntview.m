@@ -183,6 +183,8 @@
     [path addLineToPoint:self.currpoint];
     //绘制
     [path stroke];
+        
+        NSLog(@"");
     }
 }
 
