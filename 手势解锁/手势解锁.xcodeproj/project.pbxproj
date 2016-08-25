@@ -10,6 +10,8 @@
 		872A529F1D6EA49200746612 /* LoopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872A529E1D6EA49200746612 /* LoopsViewController.m */; };
 		872A52A61D6EB14E00746612 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872A52A41D6EB14E00746612 /* HomeViewController.m */; };
 		872A52A71D6EB14E00746612 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 872A52A51D6EB14E00746612 /* HomeViewController.xib */; };
+		872A52AC1D6ECF1E00746612 /* GITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872A52AA1D6ECF1E00746612 /* GITViewController.m */; };
+		872A52AD1D6ECF1E00746612 /* GITViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 872A52AB1D6ECF1E00746612 /* GITViewController.xib */; };
 		EAD10C551C41480A0018F375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD10C541C41480A0018F375 /* main.m */; };
 		EAD10C581C41480A0018F375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD10C571C41480A0018F375 /* AppDelegate.m */; };
 		EAD10C5B1C41480A0018F375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD10C5A1C41480A0018F375 /* ViewController.m */; };
@@ -25,6 +27,9 @@
 		872A52A31D6EB14E00746612 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		872A52A41D6EB14E00746612 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		872A52A51D6EB14E00746612 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		872A52A91D6ECF1E00746612 /* GITViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITViewController.h; sourceTree = "<group>"; };
+		872A52AA1D6ECF1E00746612 /* GITViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITViewController.m; sourceTree = "<group>"; };
+		872A52AB1D6ECF1E00746612 /* GITViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GITViewController.xib; sourceTree = "<group>"; };
 		EAD10C501C41480A0018F375 /* 手势解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD10C541C41480A0018F375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAD10C561C41480A0018F375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +64,16 @@
 			path = "指纹";
 			sourceTree = "<group>";
 		};
+		872A52A81D6ECF1200746612 /* gittest */ = {
+			isa = PBXGroup;
+			children = (
+				872A52A91D6ECF1E00746612 /* GITViewController.h */,
+				872A52AA1D6ECF1E00746612 /* GITViewController.m */,
+				872A52AB1D6ECF1E00746612 /* GITViewController.xib */,
+			);
+			path = gittest;
+			sourceTree = "<group>";
+		};
 		EAD10C471C41480A0018F375 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +93,7 @@
 		EAD10C521C41480A0018F375 /* 手势解锁 */ = {
 			isa = PBXGroup;
 			children = (
+				872A52A81D6ECF1200746612 /* gittest */,
 				872A529C1D6EA45400746612 /* 指纹 */,
 				EAD10C561C41480A0018F375 /* AppDelegate.h */,
 				EAD10C571C41480A0018F375 /* AppDelegate.m */,
@@ -165,6 +181,7 @@
 			files = (
 				EAD10C631C41480A0018F375 /* LaunchScreen.storyboard in Resources */,
 				EAD10C601C41480A0018F375 /* Assets.xcassets in Resources */,
+				872A52AD1D6ECF1E00746612 /* GITViewController.xib in Resources */,
 				EAD10C5E1C41480A0018F375 /* Main.storyboard in Resources */,
 				872A52A71D6EB14E00746612 /* HomeViewController.xib in Resources */,
 			);
@@ -181,6 +198,7 @@
 				872A529F1D6EA49200746612 /* LoopsViewController.m in Sources */,
 				EAD10C581C41480A0018F375 /* AppDelegate.m in Sources */,
 				EAD10C6C1C414B4E0018F375 /* ZSBntview.m in Sources */,
+				872A52AC1D6ECF1E00746612 /* GITViewController.m in Sources */,
 				EAD10C551C41480A0018F375 /* main.m in Sources */,
 				872A52A61D6EB14E00746612 /* HomeViewController.m in Sources */,
 			);
